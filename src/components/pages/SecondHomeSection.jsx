@@ -10,7 +10,7 @@ const SecondHomeSection = () => {
       <div className="sec-home-sub-box">
         <div className="sec-home-first-box">
           <p>
-            I am <span className="sec-home-nm">Niveditha Priya,</span> a{" "}
+            I am <span className="sec-home-nm">Neethika Poojary,</span> a{" "}
             <span>B.Com</span> final year student who has completed 2nd PUC in{" "}
             <span>Commerce.</span> I am a confident <span>anchor</span> and{" "}
             <span>public speaker</span> with strong communication skills and the

@@ -7,7 +7,7 @@ const Header = () => {
     <div className="head-container container-format">
       <div className="first-box">
         <Link to="/">
-          <img src="../../../public/images/nlogo.png" alt="nlogo" />
+          <img src="/images/nlogo.png" alt="nlogo" />
         </Link>
       </div>
       <ul className="second-box">

@@ -17,7 +17,7 @@ const Achievements = () => {
             <MdArrowForwardIos className="right-arrow" />
             <SwiperSlide className="swipper-card">
               <div>
-                <img src="../../../public/images/nlogo.png" />
+                <img src="/images/nlogo.png" />
                 <h4>
                   Hackathon<span>&nbsp;First Place</span>
                 </h4>
@@ -25,7 +25,7 @@ const Achievements = () => {
             </SwiperSlide>
             <SwiperSlide className="swipper-card">
               <div>
-                <img src="../../../public/images/nlogo.png" />
+                <img src="/images/nlogo.png" />
                 <h4>
                   UNXT <span>&nbsp;By Unnati</span>
                 </h4>
