@@ -27,7 +27,7 @@ const SecondHomeSection = () => {
         </div>
 
         <div className="sec-home-second-box">
-          <img src="../../../public/images/abtme.png" alt="abtimg" />
+          <img src="/images/abtme.png" alt="abtimg" />
         </div>
       </div>
       <div className="sec-home-course">
