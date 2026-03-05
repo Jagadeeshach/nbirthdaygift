@@ -1,0 +1,232 @@
+.fifth-home-head {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(3, 58, 90, 1);
+}
+
+.fith-home-head-headline {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  font-size: 25px;
+  font-family: "Pacifico", cursive;
+  color: #fff;
+}
+
+.fith-home-head-headline span {
+  color: rgba(158, 247, 255, 1);
+}
+
+.fifth-home-sub-head {
+  height: 90%;
+  width: 100%;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.fifth-home-first-box {
+  height: 90%;
+  width: 70%;
+  background-color: rgb(1, 31, 48);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Kanit", sans-serif;
+  gap: 5%;
+}
+
+.fifth-home-first-box div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid rgba(158, 247, 255, 1); */
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(1, 31, 48);
+}
+
+.fifth-home-first-box div p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fifth-home-first-box div span {
+  color: rgba(158, 247, 255, 1);
+}
+
+.fifth-home-second-box {
+  height: 90%;
+  width: 40%;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1200px;
+}
+
+#fh-boxx {
+  width: 260px;
+  height: 260px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+#fh-boxx::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+  transform: rotateX(90deg) translateZ(130px);
+}
+
+#fh-boxx::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  transform: rotateX(90deg) translateZ(-260px);
+  filter: blur(6px);
+}
+
+#fh-boxx > div {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+/* SIDES */
+#fh-boxx > div span {
+  position: absolute;
+  inset: 0;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 4 SIDES POSITION */
+#fh-boxx > div span:nth-child(1) {
+  transform: rotateY(0deg) translateZ(130px);
+}
+
+#fh-boxx > div span:nth-child(2) {
+  transform: rotateY(90deg) translateZ(130px);
+}
+
+#fh-boxx > div span:nth-child(3) {
+  transform: rotateY(180deg) translateZ(130px);
+}
+
+#fh-boxx > div span:nth-child(4) {
+  transform: rotateY(270deg) translateZ(130px);
+}
+
+/* CONTENT */
+.fh-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.fh-container h2 {
+  font-size: 22px;
+  color: #0e2f56;
+  margin-bottom: 6px;
+}
+
+.fh-container h3 {
+  font-size: 15px;
+  color: #fff;
+  background-color: #0e2f56;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.fh-container p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (max-width: 450px) {
+  .fifth-home-head {
+    height: 800px;
+  }
+
+  .fifth-home-sub-head {
+    flex-direction: column;
+  }
+
+  .fifth-home-first-box div p {
+    font-size: 5px;
+  }
+
+  #fh-boxx {
+    width: 130px;
+    height: 130px;
+  }
+
+  #fh-boxx > div span:nth-child(1) {
+    transform: rotateY(0deg) translateZ(59px);
+  }
+
+  #fh-boxx > div span:nth-child(2) {
+    transform: rotateY(90deg) translateZ(59px);
+  }
+
+  #fh-boxx > div span:nth-child(3) {
+    transform: rotateY(180deg) translateZ(59px);
+  }
+
+  #fh-boxx > div span:nth-child(4) {
+    transform: rotateY(270deg) translateZ(59px);
+  }
+
+  .fh-container {
+    padding: 10px;
+  }
+
+  .fh-container h2 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .fh-container h3 {
+    font-size: 8px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+  }
+
+  .fh-container p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  #fh-boxx::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    transform: rotateX(90deg) translateZ(90px);
+  }
+
+  #fh-boxx::after {
+    transform: rotateX(90deg) translateZ(-130px);
+  }
+}

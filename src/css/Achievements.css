@@ -1,0 +1,164 @@
+.achievements-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(5, 93, 143);
+  height: 500px;
+  width: 100%;
+}
+
+.achievements-section-head .achievements-section-sub-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  height: 90%;
+  width: 100%;
+}
+
+.achievements-section-head .achievements-section-title {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  color: #fff;
+}
+
+.achievements-section-head .achievements-section-title span {
+  color: rgba(158, 247, 255, 1);
+}
+
+.achievements-section-head .achievements-section-sub-head .a-c-firstbox {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box {
+  /* background-color: blue; */
+  height: 370px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .left-arrow {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .right-arrow {
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .swipper-card {
+  height: 370px;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .swipper-card
+  div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .swipper-card
+  div
+  img {
+  height: 280px;
+  width: 365px;
+  /* background-color: red; */
+  border-radius: 10px 10px 0 0;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .swipper-card
+  div
+  h4 {
+  height: 90px;
+  width: 365px;
+  background-color: rgba(3, 58, 90, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+}
+
+.achievements-section-head
+  .achievements-section-sub-head
+  .a-c-firstbox
+  .swipper-box
+  .swipper-card
+  div
+  h4
+  span {
+  color: rgba(158, 247, 255, 1);
+}
+
+.achievements-section-head .achievements-section-sub-head .a-c-secondbox {
+  height: 90%;
+  width: 60%;
+  background-color: rgba(3, 58, 90, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.achievements-section-head .achievements-section-sub-head .a-c-secondbox span {
+  color: rgba(158, 247, 255, 1);
+}

@@ -1,0 +1,139 @@
+.fourth-home-head {
+  height: 500px;
+  width: 100%;
+  background-color: rgba(3, 58, 90, 1);
+}
+
+.fourth-home-head .fourth-home-headline {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.fourth-home-head .fourth-home-headline span {
+  color: rgba(158, 247, 255, 1);
+}
+
+.fourth-home-head .fourth-home-sub-box {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(2, 47, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 15px;
+}
+
+.fourth-home-head .fourth-home-sub-box .fourth-home-sembox {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(1, 35, 54);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.fourth-home-head .fourth-home-sub-box .fourth-home-sembox .fourth-home-menu {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .fourth-home-head
+  .fourth-home-sub-box
+  .fourth-home-sembox
+  .fourth-home-menu */
+.fourth-home-toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: rgba(158, 247, 255, 1);
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0, 0.5, 0.5, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 1.25s;
+  overflow: visible;
+  transition:
+    transform 1.25s ease,
+    box-shadow 0.4s ease;
+  position: relative;
+  z-index: 10;
+  flex-direction: column;
+}
+
+.fourth-home-menu.active .fourth-home-toggle {
+  transform: rotate(360deg);
+  box-shadow:
+    0 6px 8px rgba(0, 0, 0, 0.15),
+    0 0 0 2px #333,
+    0 0 0 8px #fff;
+}
+
+.fourth-home-menu li {
+  position: absolute;
+  left: 0;
+  list-style: none;
+  transform: rotate(calc(360deg / 8 * var(--i)));
+  transform-origin: 140px;
+  scale: 0;
+  transition-delay: calc(0.05s * var(--i));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth-home-menu.active li {
+  scale: 1;
+}
+
+.fourth-home-menu li a {
+  position: relative;
+  display: flex;
+  transform: rotate(calc(360deg / -8 * var(--i)));
+  width: 70px;
+  height: 70px;
+  background: rgba(2, 173, 188, 0.377);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--clr);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.fourth-home-menu li:hover a {
+  box-shadow:
+    0 0 0 2px var(--clr),
+    0 0 0 6px #fff;
+}
+
+.fourth-home-menu .semmhead {
+  font-size: 14px;
+  font-family: "Kanit", sans-serif;
+}
+.fourth-home-menu li p {
+  font-size: 12px;
+}
+
+.fourth-home-menu li .pp {
+  font-size: 10px;
+}

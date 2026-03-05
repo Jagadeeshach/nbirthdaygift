@@ -1,0 +1,161 @@
+.sec-home-head {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(10, 68, 102, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-home-head .sec-home-h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    color: #fff;
+    /* background-color: pink; */
+}
+
+.sec-home-head .sec-home-h1 span {
+    color: rgba(158, 247, 255, 1);
+}
+
+.sec-home-head .sec-home-sub-box {
+    height: 70%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-first-box {
+    height: 95%;
+    width: 65%;
+    background-color: rgba(8, 38, 55, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-first-box p {
+    font-family: "Pacifico", cursive;
+    color: #fff;
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-first-box p .sec-home-nm {
+    font-family: "Kanit", sans-serif;
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-first-box p span {
+    color: rgba(158, 247, 255, 1);
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-second-box {
+    height: 95%;
+    width: 35%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sec-home-head .sec-home-sub-box .sec-home-second-box img {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sec-home-head .sec-home-course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    border-radius: 10px;
+    background-color: rgba(8, 38, 55, 1);
+    height: 100%;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box {
+    position: absolute;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 25.5px;
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box:nth-child(2) {
+    transform: rotate(180deg);
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box div {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: block;
+    transform: rotate(315deg);
+    overflow: hidden;
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box div::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: animateBefore 4s linear infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes animateBefore {
+    0% {
+        transform: translateX(-100%);
+    }
+    25%, 100% {
+        transform: translateX(100%);
+    }
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box div::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, transparent, rgba(158, 247, 255, 1));
+    animation: animateAfter 4s linear infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes animateAfter {
+    0%, 12.5% {
+        transform: translateY(-100%);
+    }
+    37.5%, 100% {
+        transform: translateY(100%);
+    }
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box div span {
+    position: absolute;
+    background: rgba(8, 38, 55, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 10px;
+    border: 1px solid rgba(158, 247, 255, 1);
+    border-radius: 10px;
+}
+
+.sec-home-head .sec-home-course .sec-home-couse-box div span b {
+    color: #fff;
+    font-weight: normal;
+    transform: rotate(45deg);
+    font-size: 2em;
+}

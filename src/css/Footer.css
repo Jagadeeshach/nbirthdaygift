@@ -1,0 +1,151 @@
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  width: 100%;
+  background-color: rgb(2, 41, 63);
+}
+
+.footer-head .footer-sub-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(4, 73, 113);
+  height: 90%;
+  width: 100%;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.footer-head .footer-sub-box .footer-first-box,
+.footer-head .footer-sub-box .footer-second-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: palegreen; */
+  padding: 5px 5px;
+}
+
+.footer-head .footer-sub-box .footer-first-box .footer-first-box-title,
+.footer-head .footer-sub-box .footer-second-box .footer-sec-title,
+.footer-head .footer-sub-box .footer-third-box .footer-trd-title {
+  font-size: 14px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-head .footer-sub-box .footer-first-box .footer-first-box-title span,
+.footer-head .footer-sub-box .footer-second-box .footer-sec-title span,
+.footer-head .footer-sub-box .footer-third-box .footer-trd-title span {
+  font-size: 14px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(158, 247, 255, 1);
+}
+
+.footer-head .footer-sub-box .footer-first-box ul,
+.footer-head .footer-sub-box .footer-second-box ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: orange; */
+  width: 100%;
+}
+
+.footer-head .footer-sub-box .footer-first-box ul li,
+.footer-head .footer-sub-box .footer-second-box ul li {
+  list-style: none;
+  font-size: 14px;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+}
+
+.footer-head .footer-sub-box .footer-first-box ul li a,
+.footer-head .footer-sub-box .footer-second-box ul li a {
+  text-decoration: none;
+  color: rgba(158, 247, 255, 1);
+  transition: 0.5s ease;
+}
+
+.footer-head .footer-sub-box .footer-first-box ul li a:hover,
+.footer-head .footer-sub-box .footer-second-box ul li a:hover {
+  text-decoration: none;
+  color: rgb(68, 192, 204);
+}
+
+.footer-head .footer-sub-box .footer-second-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: brown; */
+}
+
+.footer-head .footer-sub-box .footer-third-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-head .footer-sub-box .footer-third-box .footer-form-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: gold; */
+  width: 100%;
+  gap: 10px;
+}
+
+.footer-head .footer-sub-box .footer-third-box .footer-form-head input {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+.footer-head
+  .footer-sub-box
+  .footer-third-box
+  .footer-form-head
+  input[type="submit"] {
+  background-color: rgba(158, 247, 255, 1);
+  color: rgba(3, 58, 90, 1);
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.footer-head
+  .footer-sub-box
+  .footer-third-box
+  .footer-form-head
+  input[type="submit"]:hover,
+.footer-head
+  .footer-sub-box
+  .footer-third-box
+  .footer-form-head
+  input[type="submit"]:active {
+  background-color: rgb(230, 242, 244);
+}
+
+.footer-head .footer-sub-box .footer-third-box .footer-form-head .txtarea {
+  width: 250px;
+  height: 120px;
+  resize: none;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
