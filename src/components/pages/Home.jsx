@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-first-box">
         <div className="home-text-box">
           <p className="home-nme">
-            Hai... I'm <span>Niveditha Priya</span>
+            Hai... I'm <span>Neethika Poojary</span>
           </p>
           <p className="home-stl">
             Studying in <span>B. Com Final Year</span>
@@ -49,27 +49,27 @@ const Home = () => {
         <div className="home-container">
           <div className="home-cube">
             <div className="home-face front">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/anchor.jpeg" alt="img" />
               <p>Anchor</p>
             </div>
             <div className="home-face back">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/teamleader.jpeg" alt="img" />
               <p>Team Leader</p>
             </div>
             <div className="home-face right">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/motivator.jpeg" alt="img" />
               <p>Motivator</p>
             </div>
             <div className="home-face left">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/writer.jpeg" alt="img" />
               <p>Writer</p>
             </div>
             <div className="home-face top">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/singer.jpeg" alt="img" />
               <p>Public Speaker</p>
             </div>
             <div className="home-face bottom">
-              <img src="../../../../public/images/abtme.png" alt="img" />
+              <img src="../../../../public/images/accountant.jpeg" alt="img" />
               <p>Accountant</p>
             </div>
           </div>
